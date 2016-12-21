@@ -1,0 +1,401 @@
+/*
+  INFO-SECTION
+*/
+
+.info-section {
+
+  .container {
+
+    display: flex;
+    flex-flow: row wrap;
+
+    .island {
+
+      background: url('../pic/island.png') no-repeat;
+      background-size: cover;
+      height: 0;
+      padding-top: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 34.92%;
+        background-size: contain;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        padding-top: 23.3%;
+        background-size: contain;
+
+      }
+
+      
+    }
+
+    .dish {
+
+      padding-top: 23px;
+      height: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 10px;
+        height: 34.96%;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        height: 23.3%;
+        padding-top: 3%px;
+
+      }
+
+      .img-dish {
+
+        margin-bottom: 9px;
+        width: 18%;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin: 0;
+
+        }
+
+      }
+
+      p {
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        @include  font-size(16px);
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0 0 3px 0;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin: 0;
+
+        }
+
+      }
+
+      span {
+
+        @include  font-size(19px);
+        font-size: 19px;
+        
+      }
+
+    }
+
+    .hotel {
+
+      background: url('../pic/hotel.png') no-repeat;
+      background-size: cover;
+      height: 0;
+      padding-top: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 34.96%;
+        background-size: contain;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        padding-top: 23.2%;
+        background-size: cover;
+
+      }
+      
+    }
+
+    .monument {
+
+      padding-top: 33px;
+      height: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 10px;
+        height: 34.96%;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        height: 23.3%;
+        padding-top: 3%px;
+
+      }
+
+      .img-monument {
+
+        margin-bottom: 9px;
+        width: 12%;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin: 0;
+
+        }
+
+      }
+
+      p {
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        @include  font-size(16px);
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0 0 3px 0;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin: 0;
+
+        }
+
+      }
+
+      span {
+
+        @include  font-size(19px);
+        font-size: 19px;
+        
+      }
+
+    }
+
+    .mountain1 {
+
+      background: url('../pic/mountain1-.png') no-repeat;
+      background-size: cover;
+      height: 0;
+      padding-top: 23.4%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 35%;
+        background-size: contain;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        padding-top: 23.45%;
+        background-size: cover;
+
+      }
+
+    }
+
+    .city1 {
+
+      background: url('../pic/city1-.png') no-repeat;
+      background-size: contain;
+      height: 0;
+      padding-top: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 34.96%;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        padding-top: 23.45%;
+        background-size: cover;
+
+      }
+
+    }
+
+    .mountain {
+
+      background: url('../pic/mountain.png') no-repeat;
+      background-size: cover;
+      height: 0;
+      padding-top: 23.31%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 34.96%;
+        background-size: contain;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        padding-top: 23.4%;
+        background-size: cover;
+
+      }
+
+
+
+    }
+
+    .city {
+
+      background: url('../pic/city.png') no-repeat;
+      background-size: cover;
+      height: 0;
+      padding-top: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 34.96%;
+        background-size: contain;
+
+      }
+
+      @media (min-width: 481px) and (max-width: 768px) {
+
+        padding-top: 23.3%;
+        background-size: cover;
+
+      }
+
+    }
+
+    .flower {
+
+      padding-top: 33px;
+      height: 23.25%;
+
+      @media (max-width: 480px) {
+
+        padding-top: 20px;
+        height: 34.96%;
+
+      }
+
+      @media (min-width: 549px) and (max-width: 768px) {
+
+        height: 23.3%;
+        padding-top: 20px;
+
+      }
+
+      .img-flower {
+
+        margin-bottom: 11px;
+        margin-left: 16px;
+        width: 13%;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin-left: 0;
+
+        }
+
+      }
+
+      p {
+
+        @include  font-size(16px);
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0px 0 3px 18px;
+
+        @media (max-width: 480px) {
+
+          margin: 0;
+  
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+
+          margin: 0px 0 3px 0;
+
+        }
+
+      }
+
+      span {
+
+        @include  font-size(19px);
+        font-size: 19px;
+        
+      }
+
+    }
+
+    .span-two {
+
+      @media (max-width: 548px) {
+
+        color: #3a4246;
+        flex: 1 0 auto;
+        text-align: center;
+        width: calculate-width(2);
+        
+      }
+
+    }
+
+    .span-three {
+
+      @media (min-width: 549px) {
+
+        color: #3a4246;
+        flex: 1 0 auto;
+        text-align: center;
+        width: calculate-width(3);
+      
+      }
+ 
+    }
+
+  }
+
+}
+
+/*
+  END INFO-SECTION
+*/

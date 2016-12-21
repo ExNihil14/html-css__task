@@ -1,0 +1,71 @@
+/*
+  TITLE-SECTION
+*/
+
+.title-section {
+
+  display: block;
+  margin-bottom: 98px;
+  padding-top: 36px;
+  text-align: center;
+
+  @media (max-width: 480px) {
+
+    padding-top: 0;
+
+  }
+
+    .container {
+
+    h1 {
+
+      @include  font-size(80px);
+      color: $white;
+      font-family: 'Dancing Script', cursive;
+      font-size: 80px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 500;
+      margin: 0 0 10px 0;
+    
+    }
+
+    p {
+
+      @include  font-size(34px);
+      color: $white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 34px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 500;
+      margin: 0 0 14px 0;
+
+    }
+
+    .btn {
+
+      @include  font-size(24px);
+      background: #003333;
+      color: $white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 300;
+      margin-top: 22px;
+      padding: 12px 22px;
+    
+      &:hover {
+     
+      }
+
+    }
+  
+  }
+
+}
+
+/*
+  END TITLE-SECTION
+*/

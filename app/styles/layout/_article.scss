@@ -1,0 +1,44 @@
+.article {
+
+  display: block;
+  padding-top: 69px;
+  text-align: center;
+
+  @media (max-width: 480px) {
+
+    padding-top: 0;
+
+  }
+
+  .container {
+
+    h3 {
+
+      @include  font-size(32.5px);
+      color: #3a4246;
+      font-family: 'Roboto', sans-serif;
+      font-size: 32.5px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0 0 21px 16px;
+    
+    }
+
+    p {
+
+      @include  font-size(19px);
+      color: #3a4246;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0 0 62px 25px;
+
+    }
+
+  }
+
+}
