@@ -3,7 +3,6 @@
 */
 
 .carousel-section {
-
   margin-bottom: 26px;
   
   .gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1),
@@ -11,22 +10,17 @@
   .gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
   .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4),
   .gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
-
-    background: url(../img/Ellipse-2-copy-2.png) no-repeat;
+    background: url(../img/control-button-active.png) no-repeat;
     background-position: 50% 10%;
-
   }
 
   .gallery .item:first-of-type {
-
     opacity: 1;
     pointer-events: auto;
     position: static;
-
   }
 
   .gallery .item {
-
     -o-transition: opacity .5s;
     -webkit-transition: opacity .5s;
     height: 100%;
@@ -37,31 +31,24 @@
     top: 0;
     transition: opacity .5s;
     width: 100%;
-
   }
 
   .gallery .control-operator {
-
     display: none;
-
   }
 
   .gallery .control-operator:target ~ .item {
-
     -o-animation: none;
     -webkit-animation: none;
     animation: none;
     opacity: 0;
     pointer-events: none;
-
   }
 
   .gallery .control-operator:target ~ .controls .control-button {
-    
     -o-animation: none;
     -webkit-animation: none;
     animation: none;
-
   }
 
   @-webkit-keyframes controlAnimation-2 {
@@ -653,17 +640,13 @@
   }
 
   .gallery .control-button {
-
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
-
   }
 
   .gallery .control-button:hover {
-
     background: url(../img/Ellipse-2-copy-2.png) no-repeat;
     background-position: 50% 10%;
-
   }
 
   /*
@@ -671,73 +654,58 @@
   */
 
   .gallery {
-
     position: relative;
-
   }
 
   .gallery .item {
-
     height: auto;
     overflow: hidden;
     padding-top: 48px;
     text-align: center;
 
     .quote {
-
+      @include  font-size(17px);
       color: #3a4246;
       font-family: 'Roboto', sans-serif;
       font-size: 17px;
-      @include  font-size(17px);
       font-stretch: normal;
       font-style: normal;
       font-weight: 400;
       line-height: 1.5;
       margin: 19px 93px 0 81px;
-
     }
 
     .author {
-
+      @include  font-size(15px);
       color: #1599a7;
       font-family: 'Roboto', sans-serif;
       font-size: 15px;
-      @include  font-size(15px);
       font-stretch: normal;
       font-style: italic;
       font-weight: 300;
       margin: 10px 0 32px 0;
-
     }
-    
   }
 
   .gallery .controls {
-
     bottom: 0;
     height: 20px;
     position: absolute;
     text-align: center;
     width: 100%;
-
   }
 
   .gallery .control-button {
-
-    background: url('../img/Ellipse-2.png') no-repeat;
+    background: url('../img/control-button.png') no-repeat;
     display: inline-block;
     font-size: 3em;
     text-align: center;
     text-decoration: none;
-    
   }
 
   figure {
-
     margin: 0;
-
   }
-
 }
 
 /*
