@@ -11,7 +11,7 @@
     .island-bg {
       background: url('../pic/island-bg.png') no-repeat;
       background-size: cover;
-      height: 0;
+      height: auto;
       padding-top: 23.25%;
 
       @media (max-width: 480px) {
@@ -80,7 +80,7 @@
     .hotel-bg {
       background: url('../pic/hotel-bg.png') no-repeat;
       background-size: cover;
-      height: 0;
+      height: auto;
       padding-top: 23.25%;
 
       @media (max-width: 480px) {
@@ -149,7 +149,7 @@
     .mountain-bg {
       background: url('../pic/mountain-bg.png') no-repeat;
       background-size: cover;
-      height: 0;
+      height: auto;
       padding-top: 23.4%;
 
       @media (max-width: 480px) {
@@ -165,8 +165,8 @@
 
     .city-bg {
       background: url('../pic/city-bg.png') no-repeat;
-      background-size: contain;
-      height: 0;
+      background-size: cover;
+      height: auto;
       padding-top: 23.25%;
 
       @media (max-width: 480px) {
@@ -182,7 +182,7 @@
     .yacht-bg {
       background: url('../pic/yacht-bg.png') no-repeat;
       background-size: cover;
-      height: 0;
+      height: auto;
       padding-top: 23.31%;
 
       @media (max-width: 480px) {
@@ -202,7 +202,7 @@
     .coast-bg {
       background: url('../pic/coast-bg.png') no-repeat;
       background-size: cover;
-      height: 0;
+      height: auto;
       padding-top: 23.25%;
 
       @media (max-width: 480px) {
