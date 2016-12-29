@@ -11,31 +11,28 @@
     .island-bg {
       background: url('../pic/island-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
-      padding-top: 23.25%;
-
+      height: 192px;
+      
       @media (max-width: 480px) {
-        padding-top: 34.92%;
-        background-size: contain;
+        height: 141px;
+        background-size: cover;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        padding-top: 23.3%;
-        background-size: contain;
+        height: 176px;
+        background-size: cover;
       }
     }
 
     .dish {
       padding-top: 23px;
-      height: 23.25%;
-
+    
       @media (max-width: 480px) {
-        padding-top: 10px;
-        height: 34.96%;
+        padding: 10px 5px 0 5px;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        height: 23.3%;
+        
         padding-top: 3%px;
       }
 
@@ -47,7 +44,7 @@
           margin: 0;
         }
 
-        @media (min-width: 481px) and (max-width: 768px) {
+        @media (min-width: 549px) and (max-width: 768px) {
           margin: 0;
         }
       }
@@ -66,7 +63,7 @@
           margin: 0;
         }
 
-        @media (min-width: 481px) and (max-width: 768px) {
+        @media (min-width: 549px) and (max-width: 768px) {
           margin: 0;
         }
       }
@@ -80,31 +77,28 @@
     .hotel-bg {
       background: url('../pic/hotel-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
-      padding-top: 23.25%;
-
+      height: 192px;
+      
       @media (max-width: 480px) {
-        padding-top: 34.96%;
-        background-size: contain;
+        height: 141px;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        padding-top: 23.2%;
+        height: 176px;
         background-size: cover;
       }
     }
 
     .monument {
       padding-top: 33px;
-      height: 23.25%;
+     
 
       @media (max-width: 480px) {
-        padding-top: 10px;
-        height: 34.96%;
+        padding: 10px 5px 0 5px;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        height: 23.3%;
+        
         padding-top: 3%px;
       }
 
@@ -149,16 +143,15 @@
     .mountain-bg {
       background: url('../pic/mountain-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
-      padding-top: 23.4%;
-
+      height: 192px;
+      
       @media (max-width: 480px) {
-        padding-top: 35%;
-        background-size: contain;
+        height: 141px;
+        background-size: cover;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        padding-top: 23.45%;
+        height: 176px;
         background-size: cover;
       }
     }
@@ -166,15 +159,15 @@
     .city-bg {
       background: url('../pic/city-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
-      padding-top: 23.25%;
-
+      height: 192px;
+      
       @media (max-width: 480px) {
-        padding-top: 34.96%;
+        height: 141px;
+        background-size: cover;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        padding-top: 23.45%;
+        height: 176px;
         background-size: cover;
       }
     }
@@ -182,16 +175,16 @@
     .yacht-bg {
       background: url('../pic/yacht-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
+      height: 192px;
       padding-top: 23.31%;
 
       @media (max-width: 480px) {
-        padding-top: 34.96%;
-        background-size: contain;
+        height: 141px;
+        background-size: cover;
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        padding-top: 23.4%;
+        height: 176px;
         background-size: cover;
       }
 
@@ -202,16 +195,16 @@
     .coast-bg {
       background: url('../pic/coast-bg.png') no-repeat;
       background-size: cover;
-      height: auto;
+      height: 192px;
       padding-top: 23.25%;
 
       @media (max-width: 480px) {
-        padding-top: 34.96%;
-        background-size: contain;
+        height: 141px;
+        background-size: cover;
       }
 
-      @media (min-width: 481px) and (max-width: 768px) {
-        padding-top: 23.3%;
+      @media (min-width: 549px) and (max-width: 768px) {
+        height: 176px;
         background-size: cover;
       }
 
@@ -223,11 +216,10 @@
 
       @media (max-width: 480px) {
         padding-top: 20px;
-        height: 34.96%;
+        
       }
 
       @media (min-width: 549px) and (max-width: 768px) {
-        height: 23.3%;
         padding-top: 20px;
       }
 
