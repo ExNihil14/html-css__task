@@ -10,8 +10,7 @@
   .gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
   .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4),
   .gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
-    background: url(../img/control-button-active.png) no-repeat;
-    background-position: 50% 10%;
+    background: url(../img/control-button-active.png) 50% 10% no-repeat;
   }
 
   .gallery .item:first-of-type {
@@ -645,8 +644,7 @@
   }
 
   .gallery .control-button:hover {
-    background: url(../img/Ellipse-2-copy-2.png) no-repeat;
-    background-position: 50% 10%;
+    background: url(../img/control-button-active.png) 50% 10% no-repeat;
   }
 
   /*
