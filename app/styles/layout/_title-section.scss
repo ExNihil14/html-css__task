@@ -13,7 +13,7 @@
   }
 
   h1 {
-    @include  font-size(80px);
+    @include font-size(80px);
     color: $white;
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
@@ -24,7 +24,7 @@
   }
 
   p {
-    @include  font-size(34px);
+    @include font-size(34px);
     color: $white;
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
@@ -35,7 +35,7 @@
   }
 
   .btn {
-    @include  font-size(24px);
+    @include font-size(24px);
     background: #003333;
     color: $white;
     font-family: 'Roboto', sans-serif;

@@ -662,7 +662,7 @@
     text-align: center;
 
     .quote {
-      @include  font-size(17px);
+      @include font-size(17px);
       color: #3a4246;
       font-family: 'Roboto', sans-serif;
       font-size: 17px;
@@ -674,7 +674,7 @@
     }
 
     .author {
-      @include  font-size(15px);
+      @include font-size(15px);
       color: #1599a7;
       font-family: 'Roboto', sans-serif;
       font-size: 15px;
@@ -685,20 +685,23 @@
     }
   }
 
-  .gallery .controls {
+  .gallery {
+
+    .controls {
     bottom: 0;
     height: 20px;
     position: absolute;
     text-align: center;
     width: 100%;
-  }
+    }
 
-  .gallery .control-button {
+    .control-button {
     background: url('../img/control-button.png') no-repeat;
     display: inline-block;
     font-size: 3em;
     text-align: center;
     text-decoration: none;
+    }
   }
 
   figure {

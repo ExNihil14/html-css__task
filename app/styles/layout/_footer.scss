@@ -14,7 +14,7 @@
   width: 100%;
  
   p {
-    @include  font-size(24px);
+    @include font-size(24px);
     color: $white;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -59,7 +59,7 @@
         }
 
         .link {
-          @include  font-size(18px);
+          @include font-size(18px);
           color: $white;
           font-family: 'Roboto', sans-serif;
           font-size: 18px;
