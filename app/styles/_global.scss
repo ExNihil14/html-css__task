@@ -154,13 +154,11 @@ $alert-color: get-color(alert);
   // sass-lint:disable-line no-ids
   .map_canvas,
   .mqa-display {
-
     img,
     embed,
     object {
       max-width: none !important;
     }
-
   }
 
   // Reset <button> styles created by most browsers
